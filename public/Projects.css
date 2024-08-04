@@ -10,7 +10,6 @@ h1 {
   text-align: center;
 }
 
-
 /* Project section */
 .project {
   width: 80%;
@@ -29,7 +28,7 @@ video {
   border-bottom: 4px solid red;
   border-top: 4px solid red;
   border-right: 4px solid #0073e6;
-}  
+}
 
 .project h2 {
   text-align: center;
@@ -45,7 +44,7 @@ video {
   margin-bottom: 15px;
 }
 
-.discription {
+.description {
   margin-top: 15px;
   padding: 15px;
   background-color: white;
@@ -53,20 +52,34 @@ video {
   border-radius: 5px;
 }
 
-.discription li {
+.description li {
   color: #333;
   line-height: 1.6;
   margin-bottom: 10px;
   list-style: none;
 }
 
-.discription li::before {
+.description li::before {
   content: "• ";
   color: white;
   font-weight: bold;
 }
 
-.discription b {
+.description b {
   color: #333;
   font-weight: bold;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  border: none;
+}
+
+.project img {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 400px; /* Ensure the images have a consistent width */
 }
