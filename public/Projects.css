@@ -1,0 +1,72 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: lightpink;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+/* Project section */
+.project {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 4px solid #0073e6;
+  border-bottom: 4px solid red;
+  border-top: 4px solid red;
+  border-right: 4px solid #0073e6;
+}  
+
+.project h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.discription {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: white;
+  border-left: 4px solid purple;
+  border-radius: 5px;
+}
+
+.discription li {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.discription li::before {
+  content: "• ";
+  color: white;
+  font-weight: bold;
+}
+
+.discription b {
+  color: #333;
+  font-weight: bold;
+}
